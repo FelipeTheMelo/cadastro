@@ -27,7 +27,7 @@ function adicionaLinha() {
     linha += `<td>${inputNumeroCliente.value >= 14 ? imgAprovado : 'Não cadastrado'}</td>`;
     linha += `</tr>`;
 
-    linhas = linha;
+    linhas += linha;
 
     inputNomeCliente.value = '';
     inputNumeroCliente.value = '';
